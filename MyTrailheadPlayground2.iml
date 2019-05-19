@@ -273,10 +273,6 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="OrderEventTrigger" />
-                            <option name="selected" value="true" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="ParkLocator" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -391,6 +387,10 @@
                         <list>
                           <MetadataEntry>
                             <option name="name" value="CloudNewsTrigger" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="OrderEventTrigger" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
