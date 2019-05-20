@@ -93,6 +93,7 @@
     </types>
     <types>
         <members>CloudNewsTrigger</members>
+        <members>OrderEventTrigger</members>
         <members>PushNotificationTrigger</members>
         <members>RejectDuplicateFavorite</members>
         <name>ApexTrigger</name>
@@ -136,6 +137,12 @@
         <members>SmartLocks</members>
         <members>SmartPriceCalculator</members>
         <members>SmartThermostat</members>
+        <members>camping</members>
+        <members>campingHeader</members>
+        <members>campingList</members>
+        <members>harnessApp</members>
+        <members>helloHeading</members>
+        <members>helloWorldd</members>
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
@@ -157,6 +164,9 @@
         <members>Broker__c.Picture_IMG__c</members>
         <members>Broker__c.Picture__c</members>
         <members>Broker__c.Title__c</members>
+        <members>Camping_Item__c.Packed__c</members>
+        <members>Camping_Item__c.Price__c</members>
+        <members>Camping_Item__c.Quantity__c</members>
         <members>Case.EngineeringReqNumber__c</members>
         <members>Case.PotentialLiability__c</members>
         <members>Case.Product__c</members>
@@ -176,6 +186,10 @@
         <members>Dreamhouse_Settings__c.Push_Server_URL__c</members>
         <members>Dreamhouse_Settings__c.Slack_Opportunity_Webhook_URL__c</members>
         <members>Dreamhouse_Settings__c.Slack_Property_Webhook_URL__c</members>
+        <members>Expense__c.Amount__c</members>
+        <members>Expense__c.Client__c</members>
+        <members>Expense__c.Date__c</members>
+        <members>Expense__c.Reimbursed__c</members>
         <members>Favorite__c.Property__c</members>
         <members>Favorite__c.User__c</members>
         <members>Goal.OrigGoalId__c</members>
@@ -231,6 +245,7 @@
         <members>Broker__c</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
+        <members>Camping_Item__c</members>
         <members>Case</members>
         <members>CaseComment</members>
         <members>CaseContactRole</members>
@@ -251,6 +266,7 @@
         <members>EmailMessage</members>
         <members>Event</members>
         <members>ExchangeUserMapping</members>
+        <members>Expense__c</members>
         <members>Favorite__c</members>
         <members>FeedItem</members>
         <members>ForecastingCategoryMapping</members>
@@ -353,6 +369,10 @@
         <members>standard-report</members>
         <members>th_con_app__Welcome</members>
         <name>CustomTab</name>
+    </types>
+    <types>
+        <members>helloWorld</members>
+        <name>LightningComponentBundle</name>
     </types>
     <types>
         <members>GetAnimalResource</members>
