@@ -1,0 +1,7 @@
+<!--
+ - Created by kamil.entsua-mensah on 20.05.2019.
+ -->
+
+<aura:component description="campingHeader">\
+    <h1>Camping List</h1>
+</aura:component>

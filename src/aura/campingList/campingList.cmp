@@ -1,0 +1,11 @@
+<!--
+ - Created by kamil.entsua-mensah on 20.05.2019.
+ -->
+
+<aura:component description="campingList">
+    <ol>
+        <li>Bug Spray</li>
+        <li>Bear Repellant</li>
+        <li>Goat Food</li>
+    </ol>
+</aura:component>

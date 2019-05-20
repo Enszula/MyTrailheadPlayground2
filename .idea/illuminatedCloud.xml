@@ -4,10 +4,9 @@
     <option name="connections">
       <list>
         <IlluminatedCloudConnection>
-          <option name="connectionName" value="MyTrailheadPlayground2" />
-          <option name="connectionType" value="MDAPI" />
+          <option name="connectionName" value="Trailhead Playground2" />
           <option name="defaultModuleName" value="MyTrailheadPlayground2" />
-          <option name="offlineSymbolTablePath" value="$PROJECT_DIR$/IlluminatedCloud/MyTrailheadPlayground2/OfflineSymbolTable.zip" />
+          <option name="offlineSymbolTablePath" value="$PROJECT_DIR$/IlluminatedCloud/Trailhead_Playground2/OfflineSymbolTable.zip" />
         </IlluminatedCloudConnection>
       </list>
     </option>
