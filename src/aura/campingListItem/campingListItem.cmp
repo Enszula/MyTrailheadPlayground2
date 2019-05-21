@@ -1,0 +1,29 @@
+<!--
+ - Created by kamil.entsua-mensah on 20.05.2019.
+ -->
+
+<aura:component >
+    <aura:attribute name="item" type="Camping_Item__c" />
+
+    <h1>Create a Packing List Item Component</h1>   
+
+    <p>Name:
+        {!v.item.Name}
+    </p>
+    <P>Price:
+        <lightning:formattedNumber value="{!v.item.Price__c}" style="currency" />
+    </P>
+    <P>Quantity:
+        <lightning:formattedNumber value="{!v.item.Quantity__c}"/>
+    </P>
+
+    <p>Packed:
+        <lightning:input type="toggle"
+                         label="Packed ?"
+                         name="Packed"
+                         checked="{!v.item.Packed__c}" />
+    </p>
+
+    <lightning:button label="Packed!" onclick="{!c.packItem}" />
+
+</aura:component>
