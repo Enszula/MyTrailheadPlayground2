@@ -1,0 +1,6 @@
+<!--
+ - Created by kamil on 20.05.19.
+ -->
+
+<aura:component description="helloMessageInteractive">
+</aura:component>

@@ -559,10 +559,6 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="SimilarProperties" />
-                            <option name="selected" value="true" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="SmartHome" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -616,6 +612,10 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="helloPlayground" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="helloMessageInteractive" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
