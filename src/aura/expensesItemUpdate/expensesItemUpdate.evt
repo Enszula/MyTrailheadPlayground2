@@ -1,0 +1,7 @@
+<!--
+ - Created by kamil.entsua-mensah on 22.05.2019.
+ -->
+
+<aura:event type="COMPONENT">
+    <aura:attribute name="expense" type="Expense__c"/>
+</aura:event>
