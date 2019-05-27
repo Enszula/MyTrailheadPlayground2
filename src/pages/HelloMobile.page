@@ -1,0 +1,7 @@
+<!--
+ - Created by kamil.entsua-mensah on 27.05.2019.
+ -->
+
+<apex:page id="HelloMobile">
+    <apex:message >Hello mobile World</apex:message>
+</apex:page>
