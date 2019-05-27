@@ -363,6 +363,10 @@
                             <option name="name" value="BusScheduleCache" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ExchangeRates" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="ApexClass" />
@@ -383,6 +387,18 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="HeatMapMock" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ExchangeRates" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="LatestAccounts" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="LightningConnectQuickstart" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
