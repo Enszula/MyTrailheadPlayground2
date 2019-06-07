@@ -1,0 +1,20 @@
+<!--
+ - Created by kamil.entsua-mensah on 28.05.2019.
+ -->
+
+<apex:page docType="html-5.0" id="OpportunityStageTips" standardController="Opportunity">
+    <apex:outputPanel rendered="{!if(Opportunity.StageName=='Prospecting', true, false)}">
+        This is prospecting tips
+    </apex:outputPanel>
+    <apex:outputPanel rendered="{!if(Opportunity.StageName=='Needs Analysis', true, false)}" >
+        This is without prospecing tips
+    </apex:outputPanel>
+
+    <apex:outputPanel rendered="{!if(Opportunity.StageName=='Proposal/Price Quote', true, false)}" >
+        This is without prospecing tips
+    </apex:outputPanel>
+
+    <apex:outputPanel rendered="{!if(Opportunity.StageName=='Negotiation/Review', true, false)}" >
+        This is without prospecing tips
+    </apex:outputPanel>
+</apex:page>
