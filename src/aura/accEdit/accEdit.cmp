@@ -3,13 +3,13 @@
                     description="The record object to be displayed"/>
     <aura:attribute name="simpleRecord" type="Object"
                     description="A simplified view record object to be displayed"/>
-    <aura:attribute name="recordError" type="String"
+    <aura:attribute name="recordSaveError" type="String"
                     description="An error message bound to force:recordData"/>
 
     <force:recordData aura:id="accountRecord"
                       layoutType="FULL"
                       recordId="{!v.recordId}"
-                      targetError="{!v.recordError}"
+                      targetError="{!v.recordSaveError}"
                       targetRecord="{!v.record}"
                       targetFields ="{!v.simpleRecord}"
                       fields="Name"
@@ -25,4 +25,9 @@
             </div>
         </lightning:card>
     </div>
+    <aura:if isTrue="{!not(empty(v.recordSaveError))}">
+        <div class="recordError">
+                {!v.recordSaveError}
+        </div>
+    </aura:if>
 </aura:component>
