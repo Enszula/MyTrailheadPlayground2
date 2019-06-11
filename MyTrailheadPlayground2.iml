@@ -367,6 +367,10 @@
                             <option name="name" value="ExchangeRates" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="MyPropertyController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="ApexClass" />
@@ -675,10 +679,6 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="helloWorldd" />
-                            <option name="selected" value="true" />
-                          </MetadataEntry>
-                          <MetadataEntry>
                             <option name="name" value="helloMessage" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -744,6 +744,18 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="ldsEditContact" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="HelloWorld" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SimilarProperties" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SimilarProperty" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
@@ -2418,10 +2430,6 @@
                     <MetadataType>
                       <option name="entries">
                         <list>
-                          <MetadataEntry>
-                            <option name="name" value="helloWorld" />
-                            <option name="selected" value="true" />
-                          </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="helloWorld/helloWorld.html" />
                             <option name="selected" value="true" />
