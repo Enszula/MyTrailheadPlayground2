@@ -2,7 +2,7 @@
  - Created by kamil.entsua-mensah on 07.06.2019.
  -->
 
-<aura:component implements="flexipage:availableForRecordHome, force:hasRecordId"> <!--inherit recordId attribute-->
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId"> <!--inherit recordId attribute-->
     <aura:attribute name="record" type="Object" />
     <aura:attribute name="simpleRecord" type="Object" />
     <aura:attribute name="recordError" type="String" />

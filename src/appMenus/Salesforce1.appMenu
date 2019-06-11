@@ -56,4 +56,24 @@
         <name>LightningInstrumentation</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Latest_Accounts</name>
+        <type>CustomTab</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>HelloMobile</name>
+        <type>CustomTab</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>LatestAccountsSLDS</name>
+        <type>CustomTab</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>MobileContacts</name>
+        <type>CustomTab</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Responsive_Page</name>
+        <type>CustomTab</type>
+    </appMenuItems>
 </AppMenu>

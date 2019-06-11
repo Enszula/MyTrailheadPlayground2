@@ -2,7 +2,7 @@
  - Created by kamil.entsua-mensah on 27.05.2019.
  -->
 
-<apex:page>
+<apex:page >
     <apex:pageBlock >
         <div>
             <H2>Quick Share</H2>

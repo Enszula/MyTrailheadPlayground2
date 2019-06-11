@@ -2,7 +2,7 @@
  - Created by kamil.entsua-mensah on 10.06.2019.
  -->
 
-<aura:component implements="force:hasRecordId, flexipage:availableForRecordHome" description="lsdShowContact">
+<aura:component implements="force:hasRecordId,flexipage:availableForRecordHome" description="lsdShowContact">
     <aura:attribute name="contactRecord" type="Object" />
     <aura:attribute name="recordLoadError" type="String" />
 
